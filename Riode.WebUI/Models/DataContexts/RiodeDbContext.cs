@@ -15,5 +15,6 @@ namespace Riode.WebUI.Models.DataContexts
             base.OnConfiguring(optionsBuilder);
         }
         public DbSet<Contact>  Contacts { get; set; }
+        public DbSet<Brand> Brands { get; set; }
     }
 }
